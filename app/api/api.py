@@ -27,13 +27,14 @@ async def get_book(id: int, db: AsyncSession = Depends(get_db)):
     return book
 
 
-@router.post("/book", response_model=BookResponse, status_code=status.HTTP_201_CREATED)
-async def create_book(data: BookCreate, db: AsyncSession = Depends(get_db)):
-    book = Book(book_title=data.book_title, author=data.author)
-    db.add(book)
+@router.post("/books", response_model=list[BookResponse], status_code=status.HTTP_201_CREATED)
+async def create_book(data: list[BookCreate], db: AsyncSession = Depends(get_db)):
+    books = [Book(book_title=book.book_title, author=book.author) for book in data]
+    db.add_all(books)
     await db.commit()
-    await db.refresh(book)
-    return book
+    for book in books:
+        await db.refresh(book)
+    return books
 
 
 @router.patch("/books/{id}", response_model=BookResponse)
