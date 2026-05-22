@@ -9,6 +9,8 @@ from app.schemas.book import BookCreate, BookResponse, BookUpdate
 router = APIRouter()
 
 
+
+
 @router.get("/books")
 async def get_all_books(db: AsyncSession = Depends(get_db)):
     smt = select(Book)
