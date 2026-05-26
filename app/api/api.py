@@ -11,7 +11,7 @@ router = APIRouter()
 
 
 
-@router.get("/books")
+@router.get("/books", response_model=list[BookResponse])
 async def get_all_books(db: AsyncSession = Depends(get_db)):
     smt = select(Book)
     result = await db.execute(smt)
@@ -32,6 +32,8 @@ async def get_book(id: int, db: AsyncSession = Depends(get_db)):
 @router.post("/books", response_model=list[BookResponse], status_code=status.HTTP_201_CREATED)
 async def create_book(data: list[BookCreate], db: AsyncSession = Depends(get_db)):
     books = [Book(book_title=book.book_title, author=book.author) for book in data]
+    if books == []:
+        raise HTTPException(422, "No books detected")
     db.add_all(books)
     await db.commit()
     for book in books:

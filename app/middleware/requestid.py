@@ -19,7 +19,7 @@ async def add_req_id(
 
     response: Response = await call_next(request)
 
-    response.headers["X-Reqest-ID"] = new_id
+    response.headers["X-Request-ID"] = new_id
 
 
     return response

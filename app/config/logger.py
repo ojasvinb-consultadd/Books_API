@@ -34,8 +34,8 @@ def create_logger(logger_name: str, logger_file: str):
 logger = {
     "app" : create_logger("app","app.jsonl"),
     "middleware": create_logger("middleware","middleware.jsonl"),
-    "post" : create_logger("post","post.jsonl"),
-    "get" : create_logger("get","get.jsonl"),
+    "POST" : create_logger("post","post.jsonl"),
+    "GET" : create_logger("get","get.jsonl"),
     "PATCH": create_logger("patch_logger","patch.jsonl"),
     "DELETE": create_logger("delete_logger","delete.jsonl")
 }
