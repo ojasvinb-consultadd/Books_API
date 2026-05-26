@@ -1,7 +1,0 @@
-{"asctime": "2026-05-26 22:52:37,774", "levelname": "INFO", "name": "patch_logger", "message": "[84efaf91-3d99-41c3-a0fb-571a96863c6e]PATCHhttp://test/books/1"}
-{"asctime": "2026-05-26 22:55:40,338", "levelname": "INFO", "name": "patch_logger", "message": "[bbf0d9eb-d9e3-4800-8248-4ae8595f6c58]PATCHhttp://test/books/1"}
-{"asctime": "2026-05-26 22:55:42,278", "levelname": "INFO", "name": "patch_logger", "message": "[1e7c307a-ac9d-42a0-870e-639e2ef100ac]PATCHhttp://test/books/1"}
-{"asctime": "2026-05-26 23:02:12,980", "levelname": "INFO", "name": "patch_logger", "message": "[2c52d81a-3dc6-4f12-8789-0a695bb55fc8]PATCHhttp://test/books/25"}
-{"asctime": "2026-05-26 23:02:49,874", "levelname": "INFO", "name": "patch_logger", "message": "[19f69a25-e3c6-4087-9de8-f3caae6aee6b]PATCHhttp://test/books/30"}
-{"asctime": "2026-05-26 23:03:13,719", "levelname": "INFO", "name": "patch_logger", "message": "[dd0027d1-48e4-4d79-ac05-d8fb941ea4b0]PATCHhttp://test/books/35"}
-{"asctime": "2026-05-26 23:03:16,120", "levelname": "INFO", "name": "patch_logger", "message": "[504bc7aa-6e44-49e8-bd66-ab413fa9ca99]PATCHhttp://test/books/41"}

@@ -1,9 +1,0 @@
-{"asctime": "2026-05-26 22:55:40,345", "levelname": "INFO", "name": "delete_logger", "message": "[5512520e-4d84-4f01-b533-c853243b496e]DELETEhttp://test/books/1"}
-{"asctime": "2026-05-26 22:55:42,296", "levelname": "INFO", "name": "delete_logger", "message": "[d7e1cca2-e9fa-4665-b8de-d3a02108446f]DELETEhttp://test/books/1"}
-{"asctime": "2026-05-26 23:02:12,989", "levelname": "INFO", "name": "delete_logger", "message": "[4f589bd6-4955-473f-af78-545191903f8b]DELETEhttp://test/books/1"}
-{"asctime": "2026-05-26 23:02:49,882", "levelname": "INFO", "name": "delete_logger", "message": "[3cb65fad-a3b9-444b-a1b8-f8af1454420f]DELETEhttp://test/books/30"}
-{"asctime": "2026-05-26 23:02:49,887", "levelname": "INFO", "name": "delete_logger", "message": "[7c191f17-9c78-40e0-8634-6047bc33b3d0]DELETEhttp://test/books/1"}
-{"asctime": "2026-05-26 23:03:13,729", "levelname": "INFO", "name": "delete_logger", "message": "[80338b55-e01e-4e64-92f9-8167a3978e47]DELETEhttp://test/books/35"}
-{"asctime": "2026-05-26 23:03:13,740", "levelname": "INFO", "name": "delete_logger", "message": "[9a36bb49-018f-4dd5-956d-2dd21fbb1a9c]DELETEhttp://test/books/36"}
-{"asctime": "2026-05-26 23:03:16,128", "levelname": "INFO", "name": "delete_logger", "message": "[07d7e864-b6f7-4466-aa1f-276382ef8eb9]DELETEhttp://test/books/41"}
-{"asctime": "2026-05-26 23:03:16,139", "levelname": "INFO", "name": "delete_logger", "message": "[f15c58ff-e160-4e4e-adfa-eb8d59281d49]DELETEhttp://test/books/42"}
