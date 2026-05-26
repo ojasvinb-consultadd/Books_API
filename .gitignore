@@ -69,7 +69,7 @@ env.bak/
 *.dump
 
 # Logs
-*.log
+*.jsonl
 
 # Docker
 docker-compose.override.yml
