@@ -69,6 +69,7 @@ env.bak/
 *.dump
 
 # Logs
+*.jsonl.*
 *.jsonl
 
 # Docker
