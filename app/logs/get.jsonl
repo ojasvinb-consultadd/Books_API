@@ -31,3 +31,8 @@
 {"asctime": "2026-05-26 23:02:49,799", "levelname": "INFO", "name": "get", "message": "[42f90247-acc0-465a-8207-01db65b5daf3]GEThttp://test/books"}
 {"asctime": "2026-05-26 23:03:13,644", "levelname": "INFO", "name": "get", "message": "[cbeb8fe1-55dd-462c-94f8-a07ce7666dee]GEThttp://test/books"}
 {"asctime": "2026-05-26 23:03:16,045", "levelname": "INFO", "name": "get", "message": "[5c7a131d-a123-4ae1-b069-e622dc4f6206]GEThttp://test/books"}
+{"asctime": "2026-05-26 23:19:32,935", "levelname": "INFO", "name": "get", "message": "[b86550ce-9337-4eb5-9575-321c2cb9f1c3]GEThttp://127.0.0.1:8000/docks"}
+{"asctime": "2026-05-26 23:19:37,962", "levelname": "INFO", "name": "get", "message": "[8c27e34b-9672-4352-b636-8b136c19aba3]GEThttp://127.0.0.1:8000/docs"}
+{"asctime": "2026-05-26 23:19:38,010", "levelname": "INFO", "name": "get", "message": "[5c4fd07b-cd65-4868-a66b-9f43817de018]GEThttp://127.0.0.1:8000/openapi.json"}
+{"asctime": "2026-05-26 23:19:42,688", "levelname": "INFO", "name": "get", "message": "[71055116-66e0-49c3-9772-7e8b2bff595e]GEThttp://127.0.0.1:8000/books"}
+{"asctime": "2026-05-26 23:31:39,545", "levelname": "INFO", "name": "get", "message": "[779277e1-f5c6-431d-9df5-bc10f6aad753]GEThttp://127.0.0.1:8000/books"}

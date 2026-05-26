@@ -155,3 +155,8 @@
 {"asctime": "2026-05-26 23:03:16,128", "levelname": "INFO", "name": "middleware", "message": "[07d7e864-b6f7-4466-aa1f-276382ef8eb9]DELETEhttp://test/books/41"}
 {"asctime": "2026-05-26 23:03:16,132", "levelname": "INFO", "name": "middleware", "message": "[388b5d8f-c078-4b8a-b9a3-7de9b7f35375]POSThttp://test/books"}
 {"asctime": "2026-05-26 23:03:16,139", "levelname": "INFO", "name": "middleware", "message": "[f15c58ff-e160-4e4e-adfa-eb8d59281d49]DELETEhttp://test/books/42"}
+{"asctime": "2026-05-26 23:19:32,935", "levelname": "INFO", "name": "middleware", "message": "[b86550ce-9337-4eb5-9575-321c2cb9f1c3]GEThttp://127.0.0.1:8000/docks"}
+{"asctime": "2026-05-26 23:19:37,962", "levelname": "INFO", "name": "middleware", "message": "[8c27e34b-9672-4352-b636-8b136c19aba3]GEThttp://127.0.0.1:8000/docs"}
+{"asctime": "2026-05-26 23:19:38,010", "levelname": "INFO", "name": "middleware", "message": "[5c4fd07b-cd65-4868-a66b-9f43817de018]GEThttp://127.0.0.1:8000/openapi.json"}
+{"asctime": "2026-05-26 23:19:42,687", "levelname": "INFO", "name": "middleware", "message": "[71055116-66e0-49c3-9772-7e8b2bff595e]GEThttp://127.0.0.1:8000/books"}
+{"asctime": "2026-05-26 23:31:39,545", "levelname": "INFO", "name": "middleware", "message": "[779277e1-f5c6-431d-9df5-bc10f6aad753]GEThttp://127.0.0.1:8000/books"}
